@@ -1,0 +1,48 @@
+header{
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-items li {
+    display: inline;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-items a:hover {
+    color: #ddd;
+}
+
+.greeting {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: beige;
+}
+
+
